@@ -78,4 +78,4 @@ Users should be able to:
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 [live-page]: https://jczyszczon.github.io/interactive-rating-component/
-[solution-url]: https://www.frontendmentor.io/solutions/interactive-rating-component-solution-y8oniyswv0
+[solution-url]: https://www.frontendmentor.io/solutions/responsive-interactive-rating-component-IH9xZTW7kw
