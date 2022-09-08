@@ -38,7 +38,7 @@ Users should be able to:
 <table>
         <tr>
             <td>
-                <img src="./screens/desktop_v1.png"
+                <img src="./screens/dsctp.png"
                     alt="Desktop solution" width="100%" title="Desktop solution"/>
             </td>
             <td>
