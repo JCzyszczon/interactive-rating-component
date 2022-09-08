@@ -103,6 +103,7 @@ input[type="submit"] {
     text-transform: uppercase;
     letter-spacing: 3px;
     cursor: default;
+    border: none;
 }
 
 input[type="submit"]:hover {
