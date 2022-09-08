@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="rating-state">
+    <article class="rating-place">
+      <div id="star"><img src="images/icon-star.svg" alt="star-icon"></div>
+      <div style="clear: both;"></div>
+      <h1 class="title">How did we do?</h1>
+      <p class="desc">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      <form class="boxed">
+        <input type="radio" id="choice1" name="skills" onclick="myChoice(1)" value="1">
+        <label for="choice1">1</label>
+      
+        <input type="radio" id="choice2" name="skills" onclick="myChoice(2)" value="2">
+        <label for="choice2">2 </label>
+
+        <input type="radio" id="choice3" name="skills" onclick="myChoice(3)" value="3">
+        <label for="choice3">3 </label>
+
+        <input type="radio" id="choice4" name="skills" onclick="myChoice(4)" value="4">
+        <label for="choice4">4 </label>
+
+        <input type="radio" id="choice5" name="skills" onclick="myChoice(5)" value="5">
+        <label for="choice5">5 </label>
+      </form>
+      <input type="submit" id="sbm" onclick="toRates(number)">  
+    </article>
+  </section>
+  <section id="after-rate">
+    <article class="rating-place">
+      <div id="thx"><img src="images/illustration-thank-you.svg" alt="thank-you-illustration"></div>
+      <div id="selection">You selected <span id="myRateVar">1</span> out of 5</div>
+      <h1 class="title aft">Thank you!</h1>
+      <p class="desc aft">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+    </article>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
